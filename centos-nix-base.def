@@ -4,6 +4,7 @@ From: cornellcac/centos-nix-base:testing
 
 %runscript
     exec echo "Hello world!"
+    nix-store --verify --check-contents
 
 %test
     grep -q NAME=\"CentOS\ Linux\" /etc/os-release
