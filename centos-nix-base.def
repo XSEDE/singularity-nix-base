@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: cornellcac/centos-nix-base:testing
+From: xsede/centos-nix-base:latest
 
 
 %runscript
